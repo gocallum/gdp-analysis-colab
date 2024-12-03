@@ -8,6 +8,9 @@ The headers in the year contains the year followed by [YR{year}], eg "1974 [YR19
 Use the data from the row where the "Series Name" is "GDP (current US$)".
 Plot a line chart that shows India’s GDP over time from 1975 to 2023.
 Make the Y axis to show values in 2 decimal points in trillions
+ignore the series code column 
+GDP data for India is a float eg  163.2327617
+
 
 
 Create a table that shows the following annual GDP growth rates for India 
