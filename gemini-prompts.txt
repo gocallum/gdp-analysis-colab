@@ -1,0 +1,41 @@
+Let's create show the annual growth using the following prompt
+
+
+Open the file worldbank.csv with the following columns: 
+"Country Name", "Country Code", "Series Name", "Series Code", and columns ranging from "1974 [YR1974]" to "2023 [YR2023]".
+Extract data for India, where the "Country Name" is "India" and "Country Code" is "IND".
+The headers in the year contains the year followed by [YR{year}], eg "1974 [YR1974]"
+Use the data from the row where the "Series Name" is "GDP (current US$)".
+Plot a line chart that shows India’s GDP over time from 1975 to 2023.
+Make the Y axis to show values in 2 decimal points in trillions
+
+
+Create a table that shows the following annual GDP growth rates for India 
+most recent growth rate 
+3 year CAGR
+4 year CAGR
+5 year CAGR 
+
+
+create a similar chart of GDP over time as above which includes India, United Kingdom and China "CHN".  
+Reuse above data such as df 
+Keep the series for India to be colored as Orange and make the line thicker.  
+Make the line for China as Red, and UK as Blue 
+cater for nulls for data for some countries for some years. 
+
+
+
+reuse df
+create a chart that shows the series "Labor force, female (% of total labor force)"  for India from 1990 
+
+improve error handling for years and missing data. 
+make y axis easy to display with 1 decimal point 
+missing data contains ".."
+
+
+
+combine above female labor force participation with a secondary y axis for series "Labor force, total" for India 
+
+
+Combine GDP and "Labor force, female (% of total labor force)"  for India from 1990 on 2 y axis 
+
