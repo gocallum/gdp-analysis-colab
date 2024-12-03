@@ -6,6 +6,9 @@ Below are the exact prompts used to generate the analysis and visualizations in 
 
 1. **Hello Callum!**
 
+```
+ say hello callum
+```
 ---
 
 2. **Load World Bank Data:**
@@ -16,8 +19,8 @@ Below are the exact prompts used to generate the analysis and visualizations in 
    Use the data from the row where the "Series Name" is "GDP (current US$)".
    Plot a line chart that shows India’s GDP over time from 1975 to 2023.
    Make the Y-axis show values in 2 decimal points in trillions.
-   ignore the series code column 
-  GDP data for India is a float eg  163.2327617
+   ignore the series code column
+   GDP data for India is a float eg  163.2327617
 
    ```
 
